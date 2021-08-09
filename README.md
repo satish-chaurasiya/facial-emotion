@@ -4,24 +4,10 @@
 
 This project aims to classify the emotion on a person's face into one of **seven categories**, using deep convolutional neural networks. The model is trained on the [**FER-2013**](https://www.kaggle.com/deadskull7/fer2013) dataset which was published on International Conference on Machine Learning (ICML). This dataset consists of 35887 grayscale, 48x48 sized face images with **seven emotions** - Angry, Disgust, Fear, Happy, Sad, Surprise, and Neutral.
 
-## Dependencies
-
-To install the required packages, run `pip install -r requirements.txt`.
-
-## Usage
-
-The repository is currently compatible with `tensorflow-2.0` and makes use of the Keras API using the `tensorflow.keras` library.
 
 
-* If you want to train this model, use:  
 
-```bash
-python manage.py runserver
-```
-```bash
-cd src
-python emotions.py --mode display
-```
+
 
 * The folder structure is of the form:  
   src:
@@ -48,17 +34,5 @@ The [original FER2013 dataset in Kaggle](https://www.kaggle.com/deadskull7/fer20
 
 * The emotion with maximum score is displayed on the screen.
 
-## Example Output
 
-![Mutiface](files/multiface.png)
 
-## Run development server
-
-```bash
-$ python manage.py runserver
-```
-
-Open Chrome or FireFox : **127.0.0.1:8000**
-# facial-emotion
-
-"# facial-emotion" 
